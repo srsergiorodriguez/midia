@@ -1,0 +1,19 @@
+,
+    "appId": "com.electron.${name}",
+    "copyright": "Copyright © 2023 ${author}",
+    
+    "mac": {
+      "icon": "src/renderer/public/icon.icns",
+      "asar": true,
+      "target": [ "dmg", "zip" ]
+    },
+    "win": {
+      "icon": "src/renderer/public/icon.ico",
+      "target": [ "portable", "zip" ]
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "icon": "src/renderer/public/icon.png"
+    }
