@@ -4,7 +4,7 @@ const dgram = require('dgram');
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 630,
+    width: 330,
     height: 900,
     webPreferences: {
       preload: join(__dirname, "./preload.js")
